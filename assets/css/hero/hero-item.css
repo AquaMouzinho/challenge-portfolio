@@ -1,0 +1,50 @@
+.hero__item {
+  align-items: center;
+  color: var(--preto);
+  display: flex;
+  text-decoration: none;
+}
+
+.hero__item:hover {
+  text-decoration: underline;
+}
+
+.hero__item--nome {
+  font-weight: 600;
+}
+
+.hero__item--icone {
+  background: url('../../img/icone-seta.svg') no-repeat center / contain;
+}
+
+@media screen and (min-width: 0) {
+  .hero__item {
+    margin-right: 0.5rem;
+  }
+
+  .hero__item--nome {
+    font-size: 0.875rem;
+  }
+
+  .hero__item--icone {
+    width: 10.6px;
+    height: 10.6px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .hero__item {
+    margin-right: 2rem;
+  }
+
+  .hero__item--nome {
+    font-size: 1rem;
+    margin-right: 0.25rem;
+  }
+
+  .hero__item--icone {
+    width: 16px;
+    height: 16px;
+  }
+}

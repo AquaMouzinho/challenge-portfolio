@@ -1,0 +1,33 @@
+.hero__imagem {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 0) {
+  .hero__imagem {
+    margin-left: 0;
+    max-height: 98px;
+    max-width: 98px;
+    order: -1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__imagem {
+    margin-left: 2rem;
+    max-height: 146px;
+    max-width: 146px;
+    order: 1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__imagem {
+    margin-left: 1.06rem;
+    max-height: 368px;
+    max-width: 368px;
+    order: 1;
+  }
+}

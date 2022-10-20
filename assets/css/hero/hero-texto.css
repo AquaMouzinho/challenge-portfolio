@@ -1,0 +1,17 @@
+.hero__texto {
+  font-weight: 400;
+}
+
+@media screen and (min-width: 0) {
+  .hero__texto {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__texto {
+    font-size: 1.38rem;
+    margin-top: 1.5rem;
+  }
+}

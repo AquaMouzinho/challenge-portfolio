@@ -1,0 +1,72 @@
+.formulario__input--container {
+  box-sizing: border-box;
+  color: var(--preto);
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.formulario__input {
+  border: none;
+  border-bottom: 1px solid #C8C8C8;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 3.5rem;
+  padding: 1.6rem 0.75rem 0.75rem;
+  width: 100%;
+}
+
+.formulario__input::placeholder {
+  visibility: hidden;
+  color: #00000000;
+}
+
+.formulario__input:focus {
+  outline: none;
+  border-bottom: 2px solid var(--azul);
+  caret-color: var(--azul);
+}
+
+
+.formulario__input--label {
+  color: #a2a2a2;
+  position: absolute;
+  top: calc(3.5rem - 65%);
+  left: 0.75rem;
+  transition: all .25s;
+}
+
+.formulario__input:not(:placeholder-shown)+.formulario__input--label,
+.formulario__input:focus+.formulario__input--label {
+  font-size: 0.75rem;
+  top: 0.5rem;
+  transition: all .25s;
+}
+
+.formulario__input--invalido {
+  margin-bottom: 0.5rem;
+}
+
+.formulario__input--invalido .formulario__input {
+  border: 1px solid var(--vermelho-aviso);
+  border-radius: 4px;
+}
+
+.formulario__input--invalido .formulario__input--label {
+  color: var(--vermelho-aviso);
+  font-size: 0.75rem;
+}
+
+.formulario__input--msgErro {
+  display: none;
+}
+
+.formulario__input--invalido .formulario__input--msgErro {
+  color: var(--vermelho-aviso);
+  display: block;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}

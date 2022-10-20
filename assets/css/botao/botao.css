@@ -1,0 +1,27 @@
+.botao {
+  border: none;
+  font-weight: normal;
+  margin-right: 1rem;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.botao:disabled {
+  cursor: auto;
+}
+
+@media screen and (min-width: 0) {
+  .botao {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .botao {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}

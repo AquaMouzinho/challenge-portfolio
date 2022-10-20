@@ -1,0 +1,17 @@
+.hero__links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 0) {
+  .hero__links {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero__links {
+    margin-top: 1.5rem;
+  }
+}

@@ -1,0 +1,27 @@
+:root {
+  --bg-principal: #F5F5F5;
+
+  --branco: #FFFFFF;
+  --preto: #464646;
+
+  --azul-dez: #EAF2FD;
+  --azul-vinte: #D4E4FA;
+  --azul-oitenta: #5595E9;
+  --azul: #2A7AE4;
+
+  --vermelho-aviso: #df2525;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: .8em;
+}
+
+body {
+  background-color: var(--bg-principal);
+  font-family: 'Raleway', sans-serif;
+  color: var(--preto);
+}

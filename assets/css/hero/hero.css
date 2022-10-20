@@ -1,0 +1,16 @@
+.hero {
+  display: flex;
+}
+
+@media screen and (min-width: 0) {
+  .hero {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    align-items: center;
+  }
+}

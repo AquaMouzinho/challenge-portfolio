@@ -1,0 +1,17 @@
+.cabecalho__info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+
+}
+
+.cabecalho__info--imagem {
+  width: 22px;
+  margin-right: 9px;
+}
+
+.cabecalho__info--titulo {
+  font-size: 1rem;
+  font-weight: 700;
+}

@@ -1,0 +1,22 @@
+.cabecalho__contato {
+  color: var(--preto);
+  cursor: pointer;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+.cabecalho__contato:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 0) {
+  .cabecalho__contato {
+    font-weight: normal;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cabecalho__contato {
+    font-weight: bold;
+  }
+}

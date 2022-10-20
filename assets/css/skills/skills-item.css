@@ -1,0 +1,17 @@
+.skills__item {
+  align-items: flex-start;
+  background-color: var(--branco);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.skills__item--icone {
+  margin-bottom: 0.5rem;
+}
+
+.skills__item--nome {
+  font-size: 1rem;
+  font-weight: 700;
+}

@@ -1,0 +1,21 @@
+.container:nth-child(even) {
+  background-color: var(--azul-dez);
+}
+
+@media screen and (min-width: 0) {
+  .container {
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    padding: 2rem 9.5rem;
+  }
+}

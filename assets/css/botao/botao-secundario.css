@@ -1,0 +1,16 @@
+.botao__secundario {
+  background-color: transparent;
+  color: var(--azul);
+  border: 1px solid var(--azul);
+}
+
+.botao__secundario:hover {
+  background-color: var(--azul-vinte);
+}
+
+.botao__secundario:disabled,
+.botao__secundario:disabled:hover {
+  background-color: transparent;
+  border: 1px solid var(--azul-vinte);
+  color: var(--azul-vinte);
+}

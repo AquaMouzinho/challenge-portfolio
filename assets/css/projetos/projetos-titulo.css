@@ -1,0 +1,15 @@
+.projetos__titulo {
+  text-align: center;
+}
+
+@media screen and (min-width: 0) {
+  .projetos__titulo {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projetos__titulo {
+    margin-bottom: 2rem;
+  }
+}

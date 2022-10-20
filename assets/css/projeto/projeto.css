@@ -1,0 +1,28 @@
+.projeto {
+  align-items: flex-start;
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.projeto:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 0) {
+  .projeto {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projeto {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .projeto:nth-child(odd) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}

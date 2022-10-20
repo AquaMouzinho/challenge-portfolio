@@ -1,0 +1,7 @@
+@media screen and (min-width: 1024px) {
+  .sobre {
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-template-rows: auto auto;
+  }
+}

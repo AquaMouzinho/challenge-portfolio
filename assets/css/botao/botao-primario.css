@@ -1,0 +1,13 @@
+.botao__primario {
+  background-color: var(--azul);
+  color: var(--branco);
+}
+
+.botao__primario:hover {
+  background-color: var(--azul-oitenta);
+}
+
+.botao__primario:disabled,
+.botao__primario:disabled:hover {
+  background-color: var(--azul-vinte);
+}

@@ -1,0 +1,8 @@
+.menu__item {
+  margin: 0 1rem;
+  position: relative;
+}
+
+.menu__item:first-child {
+  margin-left: 0;
+}

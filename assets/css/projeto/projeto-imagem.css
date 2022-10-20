@@ -1,0 +1,41 @@
+.projeto__imagem {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1rem;
+  order: -1;
+}
+
+.projeto__imagem--deco {
+  background-image: url('../../img/decodificador.png');
+}
+
+.projeto__imagem--forca {
+  background-image: url('../../img/forca.png');
+}
+
+.projeto__imagem--calculadora {
+  background-image: url('../../img/');
+}
+
+@media screen and (min-width: 0) {
+  .projeto__imagem {
+    height: 9rem;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projeto__imagem {
+    height: 20rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projeto__imagem {
+    height: 25.38rem;
+    width: 47rem;
+    margin-right: 1rem;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, .25));
+  }
+}
